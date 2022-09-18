@@ -5,7 +5,7 @@ import pokedex from "../../assets/Pokedex React.png"
 import wip from "../../assets/WIP.png"
 import reactNotes from "../../assets/ReactNotes.png"
 import climaApp from "../../assets/ClimaApp.png"
-import mundoInvertido from "../../MundoInvertido.png"
+import mundoInvertido from "../../assets/MundoInvertido.png"
 
 export const projects = [
     {

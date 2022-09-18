@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import floatLaptop from "../../assets/float-laptop.png"
+import cv from "../../JohnCurriculo.pdf"
 import './Banner.css'
 
 export const Banner=()=>{
@@ -50,7 +51,7 @@ export const Banner=()=>{
                         <span className="tagline">Bem vindo ao meu portfolio</span>
                         <h1>{'Ola eu sou o John Ferreira '}<span className="wrap">{text}</span></h1>
                         <p>Formado como analista de sistemas pela UNIFACIG em 2021. Desde a minha formação venho estudado e aprofundado meus conhecimentos na stack JavaScript, para assim poder atuar como desenvolvedor Web</p>
-                        <button className="bannerbtn" ><span>Baixar CV</span></button>
+                        <button className="bannerbtn"><a href={cv}><span>Baixar CV</span></a></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img className="imgBanner" src={floatLaptop} alt="Banner Img"/>
