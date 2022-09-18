@@ -1,0 +1,26 @@
+.footer{
+    padding:15px 0 50px 0;
+    background-position:center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.footer img{
+    width:26%;
+}
+.footer p{
+    
+    margin-top:25px;
+    font-weight:400;
+    font-size:14px;
+    color:#bbbbbb;
+    letter-spacing: 0.5px;
+    margin-right:28rem;
+}
+
