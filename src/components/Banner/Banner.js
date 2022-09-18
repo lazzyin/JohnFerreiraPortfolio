@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import floatLaptop from "../../assets/float-laptop.png"
-import cv from "../../JohnCurriculo.pdf"
+import cv from "../../assets/JohnCurriculo.pdf"
 import './Banner.css'
 
 export const Banner=()=>{
