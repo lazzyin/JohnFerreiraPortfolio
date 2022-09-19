@@ -1,6 +1,7 @@
 import "./Footer.css";
 import { Col, Container, Row } from "react-bootstrap";
-import { FaGithub, FaLinkedin,FaInstagram } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 export const Footer = () => {
     return (
@@ -12,9 +13,10 @@ export const Footer = () => {
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                     <div className="social-icon">
-                        <a href="github.com/lazzyin"><i><FaGithub/></i></a>
-                        <a href=""><i><FaLinkedin/></i></a>
-                        <a href=""><i><FaInstagram/></i></a>
+                    <a href="github.com/lazzyin"><i><FaGithub/></i></a>
+                          <a href="mailto:johnferreira141@gmail.com"><i><SiGmail/></i></a>
+                          <a href="wa.me/5531982661317
+                          "><i><FaWhatsapp /></i></a>
                     </div>
                     <p>Criado por <span>John Ferreira</span></p>
                 </Col>

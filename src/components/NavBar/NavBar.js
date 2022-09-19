@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { Container, Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap'
-import { FaGithub, FaLinkedin,FaInstagram } from "react-icons/fa";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
+import {SiGmail} from 'react-icons/si'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 import "./NavBar.css";
@@ -43,8 +44,9 @@ const NavBar = () => {
                   <span className="navbar-text">
                       <div className="social-icon">
                           <a href="github.com/lazzyin"><i><FaGithub/></i></a>
-                          <a href="#"><i><FaLinkedin/></i></a>
-                          <a href="#"><i><FaInstagram/></i></a>
+                          <a href="mailto:johnferreira141@gmail.com"><i><SiGmail/></i></a>
+                          <a href="wa.me/5531982661317
+                          "><i><FaWhatsapp /></i></a>
                       </div>
                         <button className="btn" onClick={()=>console.log('Connect')}><NavLink href="#contact"><span>Fale comigo</span></NavLink></button>
                   </span>
