@@ -49,6 +49,10 @@
   .banner .bannerbtn span {
     z-index: 1;
   }
+  .banner .bannerbtn a{
+    text-decoration:none;
+    color:#fff;
+  }
   .banner .bannerbtn::before {
     content: "";
     width: 0%;
@@ -75,7 +79,12 @@
     animation:updown 3s infinite linear;
     height:300px;
 }
-
+@media (max-width:600px){
+    .banner .imgBanner{
+       
+        height:200px;
+    }
+}
 @keyframes updown{
     0%{
         transform:translateY(-10px);

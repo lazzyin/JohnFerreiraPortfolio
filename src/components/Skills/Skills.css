@@ -32,10 +32,15 @@
 }
 .skill-slider .item img{
     height:250px;
-
     width:250px;
     margin:0 auto 15px auto;
 }
+@media (max-width:600px) {
+    .skill-slider .item img{
+        height:150px;
+        width: 150px;
+    };
+};
 .bg-img-lf{
     top:28%;
     position:absolute;
