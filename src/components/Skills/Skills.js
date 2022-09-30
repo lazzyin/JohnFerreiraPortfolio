@@ -63,7 +63,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="bg-img-lf" src="" alt="Background"/>
+            <img className="bg-img-lf" src="" alt=""/>
         </section>
     )
 }
