@@ -5,6 +5,7 @@ import {SiGmail} from 'react-icons/si'
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 import "./NavBar.css";
+import logo from "../../assets/jkdev-proj.png"
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -30,7 +31,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
           <Container>
-              <NavbarBrand href="#home">Logo</NavbarBrand>
+              <NavbarBrand href="#home"><img className="logo" src={logo} alt="logo"/></NavbarBrand>
               <NavbarToggle arial-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
               </NavbarToggle>

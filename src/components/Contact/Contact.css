@@ -23,9 +23,9 @@ textarea{
     margin-left:20px;
   }
   .FormDiv img{
-    margin-right: 5px;
-    height:200px;
-    width:300px;
+    padding-right: 5px;
+    height:100px;
+    width:250px;
   }
 }
 @media (max-width:800px){

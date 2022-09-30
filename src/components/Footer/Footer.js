@@ -2,6 +2,7 @@ import "./Footer.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaGithub, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import logo from "../../assets/jkdev-proj.png"
 
 export const Footer = () => {
     return (
@@ -9,7 +10,7 @@ export const Footer = () => {
         <Container>
             <Row className="align-items-center">
                 <Col sm={6}>
-                    <img src="" alt="logo"/>
+                    <img src={logo} alt="logo"/>
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                     <div className="social-icon">
