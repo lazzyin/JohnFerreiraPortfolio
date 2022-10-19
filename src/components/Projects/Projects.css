@@ -77,8 +77,13 @@
     margin-bottom: 24px;
     
   }
-  .proj-imgbx img{
+  .proj-imgbx .imgDesktop{
     height:250px;
+    width:370px;
+    background:#fff;
+  }
+  .proj-imgbx .imgMobile{
+    height:600px;
     width:370px;
     background:#fff;
   }

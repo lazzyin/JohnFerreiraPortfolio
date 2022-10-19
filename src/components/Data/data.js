@@ -57,7 +57,7 @@ export const projects = [
         git: "https://github.com/lazzyin/Mundo-Invertido-DIO",
         inLive:"https://lazzyin.github.io/Mundo-Invertido-DIO/"
     },
-    {
+    /*{
         title: "CryptoTracker-WIP",
         description: "Projeto construido em react, consumindo a api do coingecko. consiste em uma tabela listando todas as crypto moedas atuais, seu preço e movimentação nas ultimas 24 horas",
         imgUrl: wip,
@@ -70,6 +70,6 @@ export const projects = [
         imgUrl: wip,
         git: "",
         inLive:""
-    },
+    },*/
 ];
 

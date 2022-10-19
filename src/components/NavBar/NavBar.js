@@ -44,12 +44,12 @@ const NavBar = () => {
 
                   <span className="navbar-text">
                       <div className="social-icon">
-                          <a href="github.com/lazzyin"><i><FaGithub/></i></a>
+                          <a href="https://github.com/lazzyin"><i><FaGithub/></i></a>
                           <a href="mailto:johnferreira141@gmail.com"><i><SiGmail/></i></a>
-                          <a href="wa.me/5531982661317
+                          <a href="https://wa.me/5531982661317
                           "><i><FaWhatsapp /></i></a>
                       </div>
-                        <button className="btn" onClick={()=>console.log('Connect')}><NavLink href="#contact"><span>Fale comigo</span></NavLink></button>
+                        <button className="btn" onClick={()=>console.log('Connect')}><NavLink href="#footer"><span>Fale comigo</span></NavLink></button>
                   </span>
               </NavbarCollapse>
           </Container>    
