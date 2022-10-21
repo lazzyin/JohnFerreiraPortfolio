@@ -10,7 +10,7 @@ export const backendProjects = [
     },
     {
         title: "Backend NLW-Esports",
-        img: "TSIcon",
+        img: TSIcon,
         desc: "Backend do projeto feito durante a NLW-Esports, oferecida pela Rocketseat. feita em Node.js e Typescript, com um bd construido em SQLite",
         git:"",
     },
