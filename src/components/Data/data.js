@@ -23,26 +23,41 @@ export const projects = [
         inLive:"https://lazzyin.github.io/Clone-Instagram-Login/",
     },
     {
+        title:"NLW-IA Upload",
+        description:"Projeto criado durante a NLW-IA da rocketseat. O objetivo do projeto é utilizar a api do whisper e do ChatGPT-3.5 para criar uma descrição automatica para videos",
+        imgUrl:"",
+        git:"",
+        inLive:"https://upload-ia-nlw.vercel.app/"
+    },
+    {
         title: "Cloneflix",
         description: "Projeto em react utilizando a api do Tmdb, que tem como objetivo criar um clone da interface da netflix e mostrar o trailer dos filmes/ series ao usuario",
         imgUrl: cloneflix,
         git: "https://github.com/lazzyin/Clone-Netflix",
-        inLive:"https://cloneflix-app.herokuapp.com/"
+        inLive:"https://clone-netflix-ten-olive.vercel.app/"
+    },
+    {
+        title: "PixelCafe",
+        description: "Projeto criado utilizando Angular. trata-se de uma pagina web para uma cafeteria ficticia",
+        imgUrl: "blob:https://vercel.com/8181201f-83f0-42e8-b33f-9eeb85a6c974",
+        git: "",
+        inLive:"https://pixel-cafe.vercel.app/"
     },
     {
         title: "Pokedex React",
         description: "Projeto em react utilizando a pokeApi, uma interface que mostra todos os pokemons e quando indicado algum especifico é possivel ver seus status",
         imgUrl: pokedex,
         git: "https://github.com/lazzyin/Pokedex-em-React",
-        inLive:"https://poke-app-react.herokuapp.com/"
-    },
-    {
-        title: "React Notes",
-        description: "Projeto feito em react, cria post-it virtuais que tem seus dados mantidos utilizando LocalStorage",
-        imgUrl: reactNotes,
-        git: "https://github.com/lazzyin/React-Notes",
         inLive:""
     },
+    {
+        title: "Controle Financeiro React",
+        description: "Projeto em react feito para similar um controle basico de entrada e saida de gastos",
+        imgUrl: "blob:https://vercel.com/edea3f55-689c-4222-bc6d-d426daf52eb8",
+        git: "",
+        inLive:"https://controle-finan-react.vercel.app/"
+    },
+    
     {
         title: "Clima-App",
         description: "Projeto feito em Node.js utilizando a api de clima, mostra o clima atual de uma localização indicada pelo usuario",
@@ -57,19 +72,6 @@ export const projects = [
         git: "https://github.com/lazzyin/Mundo-Invertido-DIO",
         inLive:"https://lazzyin.github.io/Mundo-Invertido-DIO/"
     },
-    /*{
-        title: "CryptoTracker-WIP",
-        description: "Projeto construido em react, consumindo a api do coingecko. consiste em uma tabela listando todas as crypto moedas atuais, seu preço e movimentação nas ultimas 24 horas",
-        imgUrl: wip,
-        git: "",
-        inLive:""
-    },
-    {
-        title: "App Ecommerce-WIP",
-        description: "Projeto fullstack utilizando React para o front, Node.js para o backend e MongoDB para o banco de dados. trata-se de um projeto que implementara uma loja virtual, com interações reais com o usuario, utilizando, por exemplo, a API do paypal para completar o pagamento dos itens e a api do Google Maps para informar o endereço de entrega",
-        imgUrl: wip,
-        git: "",
-        inLive:""
-    },*/
+    
 ];
 
