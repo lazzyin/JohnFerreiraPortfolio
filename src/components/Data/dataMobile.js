@@ -4,7 +4,7 @@ export const mobileProjects = [
    {
         title: "Finanças",
         desc: "UI de um aplicativo para controle de finanças. Construido utilizando React Native e expo",
-        img: teste,
+        img: "",
         git: "",
         app:"",
     },
