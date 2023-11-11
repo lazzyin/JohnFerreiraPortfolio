@@ -5,7 +5,9 @@ import pokedex from "../../assets/Pokedex React.png"
 import wip from "../../assets/WIP.png"
 import reactNotes from "../../assets/ReactNotes.png"
 import climaApp from "../../assets/ClimaApp.png"
-import mundoInvertido from "../../assets/MundoInvertido.png"
+import uploadIa from "../../assets/Upload IA.png"
+import pixelCafe from "../../assets/Pixel Coffee.png"
+import controleFinan from "../../assets/Controle Financeiro.png"
 
 export const projects = [
     {
@@ -25,8 +27,8 @@ export const projects = [
     {
         title:"NLW-IA Upload",
         description:"Projeto criado durante a NLW-IA da rocketseat. O objetivo do projeto é utilizar a api do whisper e do ChatGPT-3.5 para criar uma descrição automatica para videos",
-        imgUrl:"",
-        git:"",
+        imgUrl:uploadIa,
+        git:"https://github.com/lazzyin/upload-ia-nlw",
         inLive:"https://upload-ia-nlw.vercel.app/"
     },
     {
@@ -39,8 +41,8 @@ export const projects = [
     {
         title: "PixelCafe",
         description: "Projeto criado utilizando Angular. trata-se de uma pagina web para uma cafeteria ficticia",
-        imgUrl: "blob:https://vercel.com/8181201f-83f0-42e8-b33f-9eeb85a6c974",
-        git: "",
+        imgUrl:pixelCafe ,
+        git:"https://github.com/lazzyin/PixelCafe" ,
         inLive:"https://pixel-cafe.vercel.app/"
     },
     {
@@ -53,8 +55,8 @@ export const projects = [
     {
         title: "Controle Financeiro React",
         description: "Projeto em react feito para similar um controle basico de entrada e saida de gastos",
-        imgUrl: "blob:https://vercel.com/edea3f55-689c-4222-bc6d-d426daf52eb8",
-        git: "",
+        imgUrl: controleFinan,
+        git: "https://github.com/lazzyin/Controle-Financeiro-React",
         inLive:"https://controle-finan-react.vercel.app/"
     },
     

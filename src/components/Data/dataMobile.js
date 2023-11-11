@@ -5,14 +5,14 @@ export const mobileProjects = [
         title: "Finanças",
         desc: "UI de um aplicativo para controle de finanças. Construido utilizando React Native e expo",
         img: "",
-        git: "",
+        git: "https://github.com/lazzyin/Finance-App-UI",
         app:"",
     },
     {
         title: "Find Your DUO",
         desc: "Projeto construido durante a NLW-Esports Ignite, porporcionado pela Rocketseat. Construido utilizando React Native e expo",
         img: FindDuo,
-        git: "",
+        git: "https://github.com/lazzyin/NLW-Esports",
         app:"",
     },
 ]
